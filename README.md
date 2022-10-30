@@ -1,2 +1,2 @@
 # AJJ-s-The-Kode-Website
-Website for teaching coding to and from low income communities.
+Website and blog for teaching code and networking through the low income communities.
