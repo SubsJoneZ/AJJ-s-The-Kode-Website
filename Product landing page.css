@@ -4,6 +4,10 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*body {
     font-family: 'Lato', sans-serif;
     padding: 0%;
@@ -240,7 +244,7 @@ nav {
     height: 100vh;
     background-color: whitesmoke;
     position: relative;
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 80%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .productImg {
@@ -252,7 +256,72 @@ nav {
     top: 10%;
     right: 0%;
     width: 40%;
+    padding: 50px;
 }
+
+.productTitle {
+    font-size: 75px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+.productPrice {
+    font-family: 'Lato', sans-serif; 
+    font-weight: 900;
+}
+
+.productDescription {
+    font-size: 24px;
+    color: gray;
+    font-family: 'Lato', sans-serif;
+}
+
+.colors,.sizes {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.color {
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: gray;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.color:last-child {
+    background-color: maroon;
+}
+
+.size {
+    padding: 5px 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.productButton {
+    float: right;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border: 4px solid gray;
+}
+
+.productButton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
 
 
 
