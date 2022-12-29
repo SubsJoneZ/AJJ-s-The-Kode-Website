@@ -1,11 +1,3 @@
-<?php
-
-$
-  
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,8 +13,7 @@ $
 </head>
 <body>
   
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
             <img src="img/AJJ Logo 1.png" height="70" width="70" alt="Logo" />
         <h3 a class="navbar-brand" href="#">OBVIOUS ADVANTAGE</a> </h3>
@@ -46,7 +37,7 @@ $
                 Dropdown
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Sample E-commerce</a>
+                <a class="dropdown-item" href="Product landing page sample.html">Sample E-commerce</a>
                 <a class="dropdown-item" href="#">Logo Tech</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Graphic Tech</a>
@@ -156,8 +147,7 @@ $
 
       <!-- Newsletter -->
       <section class="bg-dark text-light p-5">
-        <div class="container">
-            
+        <div class="container">  
           <form target="_blank" action="https://formsubmit.co/3e3db1e48566d215bd7ab2cb8d28c5dc" method="POST">
             <div class="form-group">
               <div class="form-row">
@@ -167,12 +157,13 @@ $
             </div>
             <div class="d-md-flex justify-content-between align-items-center">
               <h3 class="mb-3 mb-md-0">Sign Up for Newsletters</h3>
-
               <div class="input-group news-input">
-                  <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2">
-                  <button type="submit" class="btn btn-dark btn-lg" type="button">Send</button>
+                <input type="text" textarea placeholder="Enter Email" class="form-control" name="email" aria-label="Recipient's username" aria-describedby="button-addon2" required></textarea>
+
+                  <!--<input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2">-->  
+                <button type="submit" class="btn btn-dark btn-lg" type="button">Send</button>
               </div>
-          </div>
+            </div>
           </form>
         </div>
       </section>
@@ -211,14 +202,16 @@ $
                             E-commerse Website
                         </h3>
                         <p class="card-text">
-                          Get a fully developed online store, hosting and constant upgrades for one third of the minimum going rate.
+                          Get a fully developed online store to sell your products directly from. Link to top dropshipping sites such as Shopify, 
+                          Alibaba, and Amazon, and get hosting and constant upgrades for one third of the minimum going rate.
                         </p>
-                        <a href="payment.html" class="btn btn-dark">$750</a>
+                        <a href="Product landing page sample.html" class="btn btn-dark">Try Me!</a>
                         <p class="card-text">...Or, sign up for newsletters to receive half off. </p>
                     </div>
                 </div>
             </div>
-                <div class="col-md"><div class="card bg-dark text-light">
+                <div class="col-md">
+                  <div class="card bg-dark text-light">
                     <div class="card-body text-center">
                         <div class="h1 mb-3">
                             <!--<i class="bi bi-people"></i>-->
@@ -228,11 +221,13 @@ $
                             Digital Marketing Package
                         </h3>
                         <p class="card-text">
-                          Get your premium website packaged with a logo design, project proposal, and unlimited exclusive social media graphic designs for one third of the minimum going rate. </p>
-                        <a href="payment.html" class="btn btn-success">$550</a>
-                        <p class="card-text">...Or, sign up for newsletters to receive 75% off. </p>
+                          Get a premium website package: 1) Logo design, 2) Exclusive copywriting, 3) project proposal, 4) SEO and exclusive digital marketing campaign. All for a great price you can't beat! Boost your social media presence with graphic designs and marketing consultations. Sign up to discuss special offers! </p>
+                        <!--<a href="#enroll" class="btn btn-success">Sign Up</a>-->
+                        <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Sign Up</button>
+                        <p class="card-text">We are donation based and operate for the sole purpose of helping small businesses gain an advantage. </p>
                     </div>
-                </div></div>
+                </div>
+              </div>
             </div>
         </div>
       </section>
