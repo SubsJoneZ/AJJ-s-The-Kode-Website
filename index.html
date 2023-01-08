@@ -17,23 +17,25 @@
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div class="container">
             <img src="img/AJJ Logo 1.png" height="70" width="70" alt="Logo" />
-        <h3 a class="navbar-brand" href="#">OBVIOUS ADVANTAGE</a> </h3>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
+        <h3> <a class="navbar-brand" href="blog.html">OBVIOUS ADVANTAGE</a> </h3>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#Products">Products</a>
+              <a class="nav-link" href="#Products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Donation-Box">Donate</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#questions">Questions</a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <!--<li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-bs-haspopup="true" aria-bs-expanded="false">
                 Dropdown
               </a>
@@ -43,7 +45,7 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Graphic Tech</a>
               </div>
-            </li>
+            </li>-->
             <li class="nav-item">
               <a class="nav-link" href="blog.html">Blog</a>
             </li>
@@ -52,7 +54,7 @@
       </nav>
 
       <!-- Showcase -->
-      <section id="showcase" class="text-success p-5 text-center text-sm-start">
+      <section id="showcase" class="text-success p-8 text-center text-sm-start">
         <div class="container"> 
           <div class="d-sm-flex align-items-center justify-content-between">
             <div>
@@ -187,6 +189,7 @@
                             <p class="card-text">
                               Millions of companies—including the fastest-growing startups, largest enterprises, and leading government agencies—are using AWS to lower costs, become more agile, and innovate faster. Services available here for one third of the minimum going rate. </p>
                             <!--<a href="#" class="btn btn-success">Quality Value</a>-->
+                            <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Sign Up</button>
                             <p class="card-text">Please use the email sign up for all inquiries on this product. </p>
                         </div>
                     </div>
@@ -230,8 +233,104 @@
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+
+        <!-- Donation Box -->
+        <section id="Donation-Box" class="p-5">
+          <div class="container">
+            <h4 class="text-left">DONATIONS ACCEPTED</h4>
+            <h2 class="text-left">Helps to provide and grow our web services</h2>
+            <h2 class="text-left mb-5">to serve the community of small business owners</h2>
+            <div> 
+              <div class="dbox">
+              <div style="
+              overflow: auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              width: 359px;
+              background: #FFFFFF;
+              border: 1px solid black;
+              box-shadow: 3px 4px 12px 5px rgba(22,22,22,0.75);
+    -webkit-box-shadow: 3px 4px 12px 5px rgba(22,22,22,0.75);
+    -moz-box-shadow: 3px 4px 12px 5px rgba(22,22,22,0.75);
+              border-radius: 50px;
+              font-family: SQ Market, SQ Market, Helvetica, Arial, sans-serif;
+              ">
+                <img src="https://items-images-production.s3.us-west-2.amazonaws.com/files/613c26371248ffb265be7b0b61ad786371adb8c3/original.png" alt="Web Services" onerror="this.style.display='none'" style="width: 100%;">
+              <div style="padding: 20px;">
+                  <p style="
+                font-size: 20px;
+                line-height: 20px;
+                font-weight: 300;
+              ">Web Services</p>
+                  <p style="
+                font-size: 20px;
+                line-height: 20px;
+                font-weight: 600;
+              ">Entered by customer</p>
+                <a target="_blank" data-url="https://square.link/u/FB9myRIG?src=embd" href="https://square.link/u/FB9myRIG?src=embed" style="
+                display: inline-block;
+                font-size: 24px;
+                line-height: 48px;
+                height: 48px;
+                color: #ffffff;
+                min-width: 212px;
+                background-color: #006aff;
+                text-align: center;
+                box-shadow: 0 0 0 1px rgba(0,0,0,.1) inset;
+                border-radius: 6px;
+              ">Donate</a>
+              </div>
+            </div>
+            </div>
+            
+              <script>
+                function showCheckoutWindow(e) {
+                  e.preventDefault();
+            
+                  const url = document.getElementById('embedded-checkout-modal-checkout-button').getAttribute('data-url');
+                  const title = 'Square Online Checkout';
+            
+                  // Some platforms embed in an iframe, so we want to top window to calculate sizes correctly
+                  const topWindow = window.top ? window.top : window;
+            
+                  // Fixes dual-screen position                                Most browsers          Firefox
+                  const dualScreenLeft = topWindow.screenLeft !==  undefined ? topWindow.screenLeft : topWindow.screenX;
+                  const dualScreenTop = topWindow.screenTop !==  undefined   ? topWindow.screenTop  : topWindow.screenY;
+            
+                  const width = topWindow.innerWidth ? topWindow.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+                  const height = topWindow.innerHeight ? topWindow.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+            
+                  const h = height * .75;
+                  const w = 500;
+            
+                  const systemZoom = width / topWindow.screen.availWidth;
+                  const left = (width - w) / 2 / systemZoom + dualScreenLeft;
+                  const top = (height - h) / 2 / systemZoom + dualScreenTop;
+                  const newWindow = window.open(url, title, `scrollbars=yes, width=${w / systemZoom}, height=${h / systemZoom}, top=${top}, left=${left}`);
+            
+                  if (window.focus) newWindow.focus();
+                }
+            
+                // This overrides the default checkout button click handler to show the embed modal
+                // instead of opening a new tab with the given link url
+                document.getElementById('embedded-checkout-modal-checkout-button').addEventListener('click', function (e) {
+                  showCheckoutWindow(e);
+                });
+              </script>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </div>
-      </section>
+        </section>
+
+
+        
 
       <!-- Learn Sections -->
       <section id="learn-1" class="p-5">
@@ -264,8 +363,10 @@
                     <p class="lead">
                         If you have any good ideas, here is where you can find a helpful team to collaborate with and bring your ideas to fruition.
                     </p>
-                    <p>Do you have a potential client who needs a particular set of skills in order to execute on an idea that will give their business an edge on their competitors? 
-                      Find your team here that can help you with that. Our team of consultants can help with anything from coding issues to ideas and realistic concepts.   
+                    <p>Do you have a potential client seeking to gain an edge on their competitors?   
+                      Find your team here that can help you with that. Our web consultants can help with anything from coding issues to building on ideas and realistic concepts. 
+                      Our services include Search Engine Optimization to enhance your digital marketing, UX/UI designs for front-end development, APIs, back-end development for databases, 
+                      and data structures.   
                     </p>
                     <a href="#" class="btn btn-light mt-3">
                         <i class="bi bi-chevron-right"></i> Free Consultation 
@@ -349,12 +450,12 @@
         <div class="container">
             <h2 class="text-center">Our Collaborators</h2>
             <p class="lead text-center text-dark b-5">
-                Our collaborators are both very experienced with 5+ years working as a web developer in the industry, and freshers with little to no experience but the 
+                Jamaal is currently seeking collaborators.</br> In the future, we expect our collaborators to be both very experienced with 5+ years working as a web developer in the industry, and freshers with little to no experience, but the 
                 desire to learn and gain skills from building projects with an experienced team. 
             </p>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-3">
-                    <div id="cards" class="card bg-light">
+                    <div id="cards-1" class="card bg-light">
                         <div class="card-body text-center">
                             <img src="img/Website Selfie 1.png" class="rounded-circle mb-3" style="width:auto; height: 250px" alt="">
                             <h3 class="card-title mb-3">Jamaal</h3>
