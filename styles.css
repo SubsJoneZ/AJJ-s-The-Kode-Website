@@ -4,28 +4,51 @@ body::before {
     height: 60px;
 }
 
+body {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
 #map {
     width: 100%;
     height: 230%;
     border-radius: 10px;
 }
 
-@media(min-width: 768px) {
+@media(min-width: 768px) and (max-width: 1024px) {
     .news-input {
         width: 50%;
     }
     .navbar {
         display: flex;
+        margin-top: -60px;
         } 
-    
+            
 }
 
-@media(min-width: 375px) and (max-width: 667px) {
+@media(min-width: 1025px) and (max-width: 3000px) {
+    .news-input {
+        width: 100%;
+    }
+    .navbar {
+        margin-top: -60px;
+        } 
+}
+
+@media(min-width: 1280px) and (max-width: 800px) {
+    .news-input {
+        width: 100%;
+    }
+    .navbar {
+        margin-top: -60px;
+        } 
+}
+
+@media(min-width: 200px) and (max-width: 667px) {
     .news-input {
         width: 50%;
     }
     .navbar {
-        position: sticky;
         margin-top: -60px;
         } 
     .navbar a{
@@ -69,6 +92,7 @@ body::before {
 
 .navbar {
     background: linear-gradient(to right, darkslategray, black);
+    margin-top: -60px;
 }
 
 #showcase {
